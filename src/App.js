@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorld'
+import SayMyName from './components/SayMyName'
+import Pessoa from './components/Pessoa'
 
 function App() {
 
@@ -21,6 +23,14 @@ function App() {
       <p>Soma: {sum(5,2)}</p>
       <img src={url} alt="imagem jira" />
       <HelloWorld/>
+
+      <SayMyName nome="Robenilson"></SayMyName>
+      <SayMyName nome={name}></SayMyName>
+
+      <Pessoa nome="Robinson" 
+      idade="31" 
+      profissao="Programador" 
+      foto="https://avatars.githubusercontent.com/u/49078615?v=4"/>
     </div>
   )
 
