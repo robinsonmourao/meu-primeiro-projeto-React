@@ -2,6 +2,26 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const name = 'Robinson'
+
+  function sum(a,b){
+    return a+b
+  }
+
+  const url = "https://jira.ezute.org.br/images/atlassian-jira-logo-large.png"
+
+  return (
+    //<div className="App">
+    //<div>
+    <div className="App">
+      <h2>Altarando o JSX</h2>
+      <p>Olá, {name}</p>
+      <p>Soma: {sum(5,2)}</p>
+      <img src={url} alt="imagem jira" />
+    </div>
+  )
+
   // return (
   //   <div className="App">
   //     <header className="App-header">
