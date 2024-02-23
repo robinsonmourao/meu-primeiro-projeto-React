@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <p>Olá, {name}</p>
       <p>Soma: {sum(5,2)}</p>
       <img src={url} alt="imagem jira" />
+      <HelloWorld/>
     </div>
   )
 
