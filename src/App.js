@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
+import Frase from './components/Frase';
 
 function App() {
 
@@ -31,6 +32,9 @@ function App() {
       idade="31" 
       profissao="Programador" 
       foto="https://avatars.githubusercontent.com/u/49078615?v=4"/>
+      
+      <Frase />
+      <Frase />
     </div>
   )
 
