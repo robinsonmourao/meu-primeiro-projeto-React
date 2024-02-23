@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
@@ -24,8 +24,8 @@ function App() {
       <img src={url} alt="imagem jira" />
       <HelloWorld/>
 
-      <SayMyName nome="Robenilson"></SayMyName>
-      <SayMyName nome={name}></SayMyName>
+      <SayMyName name="Robenilson"></SayMyName>
+      <SayMyName name={name}></SayMyName>
 
       <Pessoa nome="Robinson" 
       idade="31" 
