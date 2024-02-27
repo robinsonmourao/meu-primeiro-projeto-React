@@ -16,7 +16,7 @@ function Pessoa({nome, idade, profissao, foto}){
             <img src={foto} alt={foto}/>
             <h2>Nome: {nome}</h2>
             <h2>Idade: {idade}</h2>
-            <p>Profissião: {profissao}</p>
+            <p>Profissão: {profissao}</p>
         </div>
     )
 }

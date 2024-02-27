@@ -1,25 +1,35 @@
 //import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './components/HelloWorld'
-import SayMyName from './components/SayMyName'
-import Pessoa from './components/Pessoa'
-import Frase from './components/Frase';
+// import HelloWorld from './components/HelloWorld'
+// import SayMyName from './components/SayMyName'
+// import Pessoa from './components/Pessoa'
+// import Frase from './components/Frase';
+// import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
 
-  const name = 'Robinson'
+  //const name = 'Robinson'
 
-  function sum(a,b){
-    return a+b
-  }
+  // function sum(a,b){
+  //   return a+b
+  // }
 
-  const url = "https://jira.ezute.org.br/images/atlassian-jira-logo-large.png"
+  //const url = "https://jira.ezute.org.br/images/atlassian-jira-logo-large.png"
 
   return (
     //<div className="App">
     //<div>
     <div className="App">
-      <h2>Altarando o JSX</h2>
+      <h1>Testando eventos</h1>
+      
+      <Evento numero='1'/>
+      <Evento numero='2'/>
+
+      <Form/>
+
+      {/* <h2>Altarando o JSX</h2>
       <p>Olá, {name}</p>
       <p>Soma: {sum(5,2)}</p>
       <img src={url} alt="imagem jira" />
@@ -35,6 +45,8 @@ function App() {
       
       <Frase />
       <Frase />
+
+      <List/> */}
     </div>
   )
 
