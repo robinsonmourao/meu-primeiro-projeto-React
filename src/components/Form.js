@@ -7,8 +7,8 @@ function Form(){
         console.log(`Usuário cadastrado com nome: '${name}' e senha: '${password}'`)
     }
 
-    const [name, setName] = useState()
-    const [password, setPassword] = useState()
+    const [name, setName] = useState("Admin")
+    const [password, setPassword] = useState("12345678")
     
     return(
         <div>
@@ -21,7 +21,7 @@ function Form(){
                         id="name"
                         name="name"
                         placeholder="Digite seu nome!"
-                        //value={name}
+                        value={name}
                         onChange={(evento) => setName(evento.target.value)}
                     />
                 </div>
@@ -32,6 +32,7 @@ function Form(){
                         id="password"
                         name="password"
                         placeholder="Digite sua senha"
+                        value={password}
                         onChange={(evento) => setPassword(evento.target.value)}
                     />
                 </div>

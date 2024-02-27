@@ -5,7 +5,7 @@ import './App.css';
 // import Pessoa from './components/Pessoa'
 // import Frase from './components/Frase';
 // import List from './components/List';
-import Evento from './components/Evento';
+import Evento from './components/eventos/Evento';
 import Form from './components/Form';
 
 function App() {
@@ -24,8 +24,7 @@ function App() {
     <div className="App">
       <h1>Testando eventos</h1>
       
-      <Evento numero='1'/>
-      <Evento numero='2'/>
+      <Evento/>
 
       <Form/>
 
